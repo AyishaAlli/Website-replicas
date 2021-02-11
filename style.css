@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    text-align: center;
+    margin-top:100px ;
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+}
+
+/* Container 1  */
+.logo{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.container1{
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.email, .password{
+ width: 290px;
+ padding: 0.8em;
+ margin-top: 5px;
+ background-color: #FAFAFA;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+}
+
+
+.login-btn{
+    width: 290px;
+    padding: 0.7em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BBDFFD;
+    color: white;
+}
+
+.facebook-login{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #274686;
+}
+
+.forgot-pw{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #274686;
+    text-decoration: none;
+}
+
+
+/* Container 2 */
+
+.container2 {
+    border: 1px solid lightgray;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    padding: 25px;
+    background-color: #FFFFFF;
+
+}
+
